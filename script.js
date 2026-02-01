@@ -98,7 +98,7 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     //make image go boing
     const bounceImage = document.createElement("img");
-    bounceImage.src = "./images/baddie.jpg";
+    bounceImage.src = "./images/baddie.jpeg";
     bounceImage.alt = "Baddie";
     bounceImage.style.position = "absolute";
     bounceImage.style.width = "300px";
@@ -154,4 +154,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     move();
   }
+
   
